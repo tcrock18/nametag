@@ -1,0 +1,40 @@
+.name-tag {
+  height: 200px;
+  width: 300px;
+  border: 1px solid gray;
+  margin: 40px;
+  border-radius: 10px;
+}
+.tag-header{
+  height: 80px;
+  background-color: red;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tag-name {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tag-footer {
+  height: 20px;
+  background-color: red;
+  border-radius: 0 0 10px 10px;
+}
+p {
+  color: white;
+  margin: 0;
+}
+h1 {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+}
+.name {
+  color: black;
+  margin-top: 10px;
+  font-family: Noteworthy;
+}
